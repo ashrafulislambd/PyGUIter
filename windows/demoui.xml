@@ -1,0 +1,36 @@
+<root title="Hello World" width="400" height="200" grid="col" count="2">
+    <frame sticky="N" grid="col" count="2">
+        <label>Kolar Mocha</label><entry/>
+        <label>Second Name</label><entry/>
+        <pass/>
+        <button id="submit">Submit</button>
+        <frame>
+            <select id="shobji">
+                <radiobutton key="ALU" value="1">Alu</radiobutton>
+                <radiobutton key="POTOL" value="2">Potol</radiobutton>
+                <radiobutton key="KOLA" value="3">Kola</radiobutton>
+            </select>
+        </frame>
+        <listbox>
+            <item>ALU</item>
+            <item>POTOL</item>
+            <item>KOLA</item>
+        </listbox>
+        <frame padx="10">
+            <progressbar/>
+        </frame>
+    </frame>
+    <frame sticky="W">
+        <canvas img="chatlist.png" />
+        <labelframe text="Hello">
+            <checkbutton>Hello</checkbutton>
+            <checkbutton>world</checkbutton>
+            <combobox>
+                <option>ALU</option>
+                <option>POTOL</option>
+                <option>KOLA</option>
+            </combobox>
+            <button>OK</button>
+        </labelframe>
+    </frame>
+</root>
